@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Pacifico&display=swap");
+
+/* cor de fundo da pagina e texto*/
+body {
+  background-color: black;
+  color: rgb(5, 255, 5);
+}
+
+h1 {
+  color: floralwhite;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 350%;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  text-decoration: underline greenyellow;
+  text-shadow: 2px 2px 3px green;
+}
+
+h1:hover {
+  color: rgb(253, 240, 214);
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: greenyellow;
+  font: 150% serif;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.sectImage {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+
+  border-radius: 180px;
+
+  line-height: 20px;
+  display: flex;
+}
+
+.logo:hover {
+  transform: translateY(5px);
+  cursor: pointer;
+}
+
+#image {
+  width: 500px;
+
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.sectInfo {
+  display: grid;
+  justify-content: center;
+}
+
+#coffee {
+  width: 80px;
+  height: 80px;
+}
+
+#coded {
+  color: lawngreen;
+}
+
+#coded:hover {
+  color: rgb(96, 179, 13);
+  cursor: pointer;
+  transform: translateX(5px);
+}
